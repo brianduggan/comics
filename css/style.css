@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+/********** GRID STRUCTURE **********/
+
+.row {
+  clear: both;
+}
+
+footer {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+.col-12 {width: 100%;}
+.col-11 {width: 91.5%;}
+.col-10 {width: 83%;}
+.col-9 {width: 74.5%;}
+.col-8 {width: 66%;}
+.col-7 {width: 57.5%;}
+.col-6 {width:49%;}
+.col-5 {width: 40.5%;}
+.col-4 {width:32%;}
+.col-3 {width: 23.5%;}
+.col-2 {width: 15%;}
+.col-1 {width: 6.5%;}
+
+
+/********* LAYOUT ********/
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col-4, .col-8, .col-2 {
+  text-align: center;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+}
+
+/********** STYLE *********/
+body { 
+  background-color: #ddd;
+}
+
+header {
+  background-color: red;
+}
+
+.nav-bar {
+  background-color: firebrick;
+  padding: 5px;
+  border-bottom: 1px solid blue;
+  text-align: center;
+}
+
+.container {
+  background-color: blue;
+}
+
+.col-4, .col-8, .col-2 {
+  background-color: lightblue;
+}
